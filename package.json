@@ -1,0 +1,23 @@
+{
+  "name": "thatlooksneat-email",
+  "version": "1.0.0",
+  "description": "The email template for ThatLooksNeat newsletter used by Mailchimp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samjbmason/ThatLooksNeat-Email.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Mason",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0",
+    "gulp-html-autoprefixer": "0.0.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-juice": "^0.1.0",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
