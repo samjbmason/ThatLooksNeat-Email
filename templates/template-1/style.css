@@ -223,29 +223,33 @@ a.logo-header__link {
 }
 
 .item-no {
-  padding: 15px 20px 15px 20px;
   border-right: 3px solid #343B46;
   border-bottom: 3px solid #343B46;
   vertical-align: middle;
+  text-align: center;
+  width: 50px;
 }
 
 .item-no p {
   font-size: 18px;
   font-weight: 700;
   color: #343B46;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .item-details {
-  padding: 10px 20px 0 20px;
-  width: 100%;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0;
   border-bottom: 3px solid #97D0DD;
 }
 
 .item-description {
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 70px;
   padding-right: 20px;
+  padding-bottom: 0;
 }
 
 .issue-track {
@@ -253,11 +257,13 @@ a.logo-header__link {
 }
 
 .track-icon {
-  padding: 15px 5px 15px 5px;
+  width: 50px;
 }
 
 .track-icon img {
   max-width: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .track-details {
@@ -277,6 +283,10 @@ a.logo-header__link {
 .issue-actions {
   border-top: 3px solid #343B46;
   padding: 20px 20px 20px 20px;
+}
+
+.issue-actions a {
+  font-size: 14px;
 }
 
 .issue-actions > table {

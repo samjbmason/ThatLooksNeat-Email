@@ -11,7 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,700italic' rel='stylesheet' type='text/css' data-embed="true">
 
 
-    <link rel="stylesheet" href="./src/style.css" data-embed="true">
+    <link rel="stylesheet" href="./style.css" data-embed="true">
 
     <!--[if mso]>
       <style>
@@ -68,7 +68,7 @@
                         <table width="100%">
                           <tr>
                             <td align="left" class="email-header__issue-no">
-                              <h2 mc:edit="issue_no">Issue: 001</h2>
+                              <h2>Issue: {{ issue_no }}</h2>
                             </td>
                             <td align="right" class="email-header__issue-date">
                               <p class="issue-date">
@@ -88,9 +88,7 @@
                         <table width="100%" bgcolor="#FBFFFB">
                           <tr>
                             <td align="center" class="intro-container" mc:edit="issue_intro">
-                              <p>Hello and welcome to Issue: 001 of That Looks Neat,</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                              <p>Enjoy!</p>
+                              {{{ intro }}}
                             </td>
                           </tr>
                         </table>
@@ -116,7 +114,8 @@
 
 
                     <!-- Begin Repeatable Section -->
-                    <tr mc:repeatable="issue_item">
+                    {{#each items}}
+                    <tr>
                       <td align="center" class="issue-item">
                         <!-- Start Issue Item -->
                         <table width="100%">
@@ -124,27 +123,29 @@
                             <td align="center">
 
                               <!-- Start Issue Item Image -->
-                              <table width="100%" mc:hideable>
+                              {{#if image}}
+                              <table width="100%">
                                 <tr>
                                   <td align="center" class="item-image">
-                                    <img src="http://placehold.it/600x150" alt="" mc:edit="issue_item_image">
+                                    <img src="{{ image }}" alt="">
                                   </td>
                                 </tr>
                               </table>
+                              {{/if}}
                               <!-- End Issue Item Image -->
 
                               <!-- Start Issue Item Details -->
                               <table width="100%">
                                 <tr>
-                                  <td align="left" bgcolor="#FFFFFF" class="item-no">
-                                    <p mc:edit="issue_item_no">1</p>
+                                  <td align="center" bgcolor="#FFFFFF" class="item-no" width="50">
+                                    <p>{{inc @index}}</p>
                                   </td>
 
                                   <td align="left" class="item-details">
                                     <h3 class="issue-item-title">
-                                      <a href="#" mc:edit="issue_item_title">Name of Link</a>
+                                      <a href="{{ link }}">{{ title }}</a>
                                     </h3>
-                                    <h4 mc:edit="issue_item_tagline">Headline about this link</h4>
+                                    <h4>{{ tagline }}</h4>
                                   </td>
 
                                 </tr>
@@ -155,7 +156,7 @@
                               <table width="100%">
                                 <tr>
                                   <td align="center" class="item-description">
-                                    <p mc:edit="issue_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odio quidem quas, at, porro, itaque doloribus necessitatibus dolores veritatis illum tenetur alias nam quibusdam vel quam. Ab praesentium voluptates neque!</p>
+                                    <p>{{ description }}</p>
                                   </td>
                                 </tr>
                               </table>
@@ -167,6 +168,7 @@
                         <!-- End Issues Item -->
                       </td>
                     </tr>
+                    {{/each}}
                     <!-- End Repeatable Section -->
 
 
@@ -175,13 +177,15 @@
                         <!-- Start Issue Track -->
                         <table width="100%">
                           <tr>
-                            <td align="left" bgcolor="#FFFFFF" class="item-no track-icon">
-                              <img src="https://gallery.mailchimp.com/b6eaa46f5c2a597c69c116217/images/b1bff378-2aa3-4e51-a40f-d544d99fced8.jpg" alt="This Weeks Track">
+                            <td align="center" bgcolor="#FFFFFF" width="50" class="item-no track-icon">
+                              <center>
+                                <img src="https://gallery.mailchimp.com/b6eaa46f5c2a597c69c116217/images/b1bff378-2aa3-4e51-a40f-d544d99fced8.jpg" alt="This Weeks Track">
+                              </center>
                             </td>
 
                             <td align="left" class="item-details track-details">
                               <h3 class="issue-track-title">
-                                <a href="#" mc:edit="issue_track_title">Song Name - Artists Name</a>
+                                <a href="{{ track.link }}">{{ track.title }}</a>
                               </h3>
                             </td>
                           </tr>
@@ -190,7 +194,7 @@
                         <table width="100%">
                           <tr>
                             <td align="center" class="item-description">
-                              <p mc:edit="issue_track_description">A dreamy groovy tune with some amazing vocal samples, perfect for summer BBQ session.</p>
+                              <p>{{ track.description }}</p>
                             </td>
                           </tr>
                         </table>

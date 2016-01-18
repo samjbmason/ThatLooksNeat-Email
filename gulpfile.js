@@ -1,20 +1,45 @@
+'use strict'
+
 const gulp = require('gulp');
 const browserSync = require('browser-sync');
+const hbs = require('gulp-compile-handlebars');
+const yaml = require('js-yaml');
+const fs = require('fs');
+const data = require('gulp-data');
 const juice = require('gulp-juice');
-const autoprefixer = require('gulp-html-autoprefixer');
 const imagemin = require('gulp-imagemin');
 const pngquant = require('imagemin-pngquant');
+const argv = require('yargs').argv;
+const rename = require('gulp-rename');
 
-gulp.task('html', function() {
-  return gulp.src('src/**/*.html')
+
+let opts = {
+  template: argv.t || 'template-1',
+  data: argv.d || '1'
+}
+
+
+gulp.task('template', function() {
+  return gulp.src(`./templates/${opts.template}/*.hbs`)
+    .pipe(data(function() {
+      return yaml.safeLoad(fs.readFileSync(`./data/${opts.data}.yaml`));
+    }))
+    .pipe(hbs(null, {
+      helpers: {
+        inc: function(value) {
+          return parseInt(value) + 1;
+        }
+      }
+    }))
     .pipe(juice({
       removeStyleTags: false,
       webResources: {
-        images: false
+        images: false,
+        relativeTo: `./templates/${opts.template}/`
       }
     }))
-    .pipe(autoprefixer())
-    .pipe(gulp.dest('dist/'))
+    .pipe(rename(`issue${opts.data}.html`))
+    .pipe(gulp.dest('./dist'))
     .pipe(browserSync.stream());
 });
 
@@ -29,9 +54,12 @@ gulp.task('images', function() {
 
 gulp.task('serve', function() {
   browserSync.init({
-    server: 'dist/'
+    server: {
+      baseDir: 'dist',
+      index: `issue${opts.data}.html`
+    }
   });
-  gulp.watch(['src/**/*.html', 'src/**/*.css'], ['html']);
+  gulp.watch(['templates/**/*.hbs', 'templates/**/*.css', 'data/*.yaml'], ['template']);
 });
 
-gulp.task('default', ['serve', 'html', 'images']);
+gulp.task('default', ['serve', 'template', 'images']);

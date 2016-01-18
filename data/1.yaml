@@ -1,0 +1,24 @@
+issue_no: 1
+intro: >
+  <p>Hello and welcome to Issue: 001 of That Looks Neat,</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Enjoy!</p>
+
+
+items:
+  -
+    image: http://placehold.it/600x150
+    title: Test title
+    link: https://google.com
+    tagline: This is some tagline text
+    description: This is a longer description I coould do lorem here but there is not point
+  -
+    title: Second Test
+    link: https://google.com
+    tagline: This is some tagline text
+    description: This is a longer description I coould do lorem here but there is not point lorem ipsum some more stuff dadadad
+
+track:
+  title: Song Name - Artists name
+  link: https://soundlcoud.com
+  description: Some text about a cool song you should hear
