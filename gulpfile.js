@@ -7,8 +7,6 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const data = require('gulp-data');
 const juice = require('gulp-juice');
-const imagemin = require('gulp-imagemin');
-const pngquant = require('imagemin-pngquant');
 const argv = require('yargs').argv;
 const rename = require('gulp-rename');
 
@@ -43,15 +41,6 @@ gulp.task('template', function() {
     .pipe(browserSync.stream());
 });
 
-gulp.task('images', function() {
-  return gulp.src('src/images/**')
-    .pipe(imagemin({
-      progressive: true,
-      use: [pngquant()]
-    }))
-    .pipe(gulp.dest('dist/images/'));
-})
-
 gulp.task('serve', function() {
   browserSync.init({
     server: {
@@ -62,4 +51,4 @@ gulp.task('serve', function() {
   gulp.watch(['templates/**/*.hbs', 'templates/**/*.css', 'data/*.yaml'], ['template']);
 });
 
-gulp.task('default', ['serve', 'template', 'images']);
+gulp.task('default', ['serve', 'template']);
