@@ -214,6 +214,12 @@ a.logo-header__link {
   border-top: 2px solid #1a52c2;
 }
 
+.intro-container h3 {
+  color: #1a52c2;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
 .issue-item {
   border-top: 2px solid #1a52c2;
 }
