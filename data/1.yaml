@@ -1,24 +1,35 @@
-issue_no: 1
+issue_no: '01'
 intro: >
-  <p>Hello and welcome to Issue: 001 of That Looks Neat,</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <h3>Heyyy everyone!</h3>
+  <p>Welcome to the first issue of That Looks Neat! This lil' newsletter was willed into existence after chatting to some friends.</p>
+  <p>We all love the world of coding & development but feel that the industry moves so fast that it can become a little overwhelming trying to keep up with the latest and greatest!</p>
+  <p>Every week I will be selecting the top 4 things that have popped up in the world of development this week.</p>
   <p>Enjoy!</p>
 
 
 items:
   -
-    image: http://placehold.it/600x150
-    title: Test title
-    link: https://google.com
-    tagline: This is some tagline text
-    description: This is a longer description I coould do lorem here but there is not point
+    title: Egghead.io
+    link: https://egghead.io/
+    tagline: Everything you need to up your JS game!
+    description: An amazing learning resource for anyone who wants to move past the basic tutorials and see how these frameworks work on bigger projects.
   -
-    title: Second Test
-    link: https://google.com
-    tagline: This is some tagline text
-    description: This is a longer description I coould do lorem here but there is not point lorem ipsum some more stuff dadadad
+    title: AnimatePlus
+    link: https://github.com/bendc/animateplus
+    tagline: Build animations like the Stripe team
+    description: I love this library, it gives you all the power of CSS animations but with choice of triggering them from ui-actions easily. It's small and and doesn't have any dependencies!
+  -
+    title: Beyond Conf Videos
+    link: http://beyondconf.co/videos/
+    tagline: Learn a bunch from some awesome speakers
+    description: I worked on the team that ran Beyond Conf 2015 and I can tell you it was a great day! But some people couldn't make it, so we recorded all the awesome talks and put them all here for you!
+  -
+    title: C.H.I.P
+    link: http://getchip.com/
+    tagline: The cutest $9 you will ever spend
+    description: I'm a sucker for a website that has a cute name and hot pink text, but design aside, this llittle computer looks awesome, anyone wanting to get stuck into hardware hacking should check this out!
 
 track:
-  title: Song Name - Artists name
-  link: https://soundlcoud.com
-  description: Some text about a cool song you should hear
+  title: Another Girl - Jacques Greene
+  link: https://soundcloud.com/jacquesgreene/lm
+  description: Since hearing this song it always transports me to a warm place in my head! When I hear this song it just puts me in the zone whenever I'm working, hopefully it will for you too!
