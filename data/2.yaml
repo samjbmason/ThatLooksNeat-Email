@@ -1,0 +1,35 @@
+issue_no: '02'
+intro: >
+  <h3>Happy Thursday</h3>
+  <p>Welcome to Issue 02 of That Looks Neat!</p>
+  <p>It's been a busy couple of weeks I have recently started a new job at the awesome Lostmy.name, who make amazing personalised childrens books!</p>
+  <p>Even after only being there for a couple of weeks I have learnt a huge amount about building and maintaining large apps and working with new frameworks like React & Redux</p>
+  <p>Happy reading!</p>
+
+
+items:
+  -
+    title: Firewatch
+    link: http://www.firewatchgame.com/
+    tagline: Because everyone needs a break!
+    description: A collaboration between fledgling game studio Campo Santo & software company Panic, the people who bought you Coda & Transmit, have come together to create a stunning mystery game based in the Wyoming wilderness, seriously check it out!
+  -
+    title: Flexbox Froggy
+    link: http://flexboxfroggy.com/
+    tagline: Learn the newest layout system by playing this game
+    description: Flexbox is the new hotness when it comes to layout systems in CSS! Flexbox froggy aims to solve that by moving frogs around on their lillypads using the fexbox syntax.
+  -
+    title: Dotgrid.co
+    link: http://dotgrid.co/
+    tagline: Lovely notebooks perfect for paper prototypes
+    description: Who doesn't love stationary!? As designers and developers we often need to get an idea down on paper before fleshing it out. Dotgrid paper makes it easy to draw straight lines and equally sized boxes when creating your wireframes.
+  -
+    title: Speaking.io
+    link: http://speaking.io/
+    tagline: Because "imagine everyone's naked" is terrible advice
+    description: Public speaking can be terrifying and it can be a struggle to know where to even start getting better. This is a great website containg awesome tips and ways to plan a talk. Zach Holman the creator of the site is an experienced speaker and I have used thsi site mayn times in preparing for talks.
+
+track:
+  title: Portaits Outtakes - Maribou State
+  link: https://soundcloud.com/mariboustate/sets/maribou-state-outtakes
+  description: Maribou State released their b-sides to their incredible 2015 album Portriats, i'm normally apprehensive about b-sides but these 3 songs continue to add to the songs that came before it with my favourite being "Colours In Sea". Never has a trumpet sounded more epic!

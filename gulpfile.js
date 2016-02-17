@@ -10,6 +10,8 @@ const juice = require('gulp-juice');
 const argv = require('yargs').argv;
 const rename = require('gulp-rename');
 
+// gulp --d [yaml file]
+// gulp --t [template file]
 
 let opts = {
   template: argv.t || 'template-1',

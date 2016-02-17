@@ -317,6 +317,14 @@ a.logo-header__link {
   color: #647287;
 }
 
+.mc-rewards {
+  text-align: center;
+}
+
+.mc-rewards span {
+  width: 100px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 603px) {
   table[class="container"] {
