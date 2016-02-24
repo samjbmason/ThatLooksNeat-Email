@@ -137,8 +137,14 @@
                               <!-- Start Issue Item Details -->
                               <table width="100%">
                                 <tr>
-                                  <td align="center" bgcolor="#AEE5D3" class="item-no" width="50">
-                                    <p>{{inc @index}}</p>
+                                  <td align="center" width="50" bgcolor="#FFEAE2">
+                                    <table width="100%">
+                                      <tr>
+                                        <td align="center" class="item-no" bgcolor="#AEE5D3">
+                                          <p>{{inc @index}}</p>
+                                        </td>
+                                      </tr>
+                                    </table>
                                   </td>
 
                                   <td align="left" class="item-details" bgcolor="#FFEAE2">
@@ -178,9 +184,15 @@
                         <table width="100%">
                           <tr>
                             <td align="center" bgcolor="#aee5d3" width="50" class="item-no track-icon">
-                              <center>
-                                <img src="https://gallery.mailchimp.com/b6eaa46f5c2a597c69c116217/images/f81c926a-c952-44bd-ade3-b4e5e5e07814.jpg" alt="This Weeks Track" width="40">
-                              </center>
+                              <table width="100%">
+                                <tr>
+                                  <td align="center">
+                                    <center>
+                                      <img src="https://gallery.mailchimp.com/b6eaa46f5c2a597c69c116217/images/f81c926a-c952-44bd-ade3-b4e5e5e07814.jpg" alt="This Weeks Track" width="40">
+                                    </center>
+                                  </td>
+                                </tr>
+                              </table>
                             </td>
 
                             <td align="left" class="item-details track-details">
@@ -231,11 +243,12 @@
               <!-- Start Email Footer -->
               <tr>
                 <td align="center" class="email-footer">
-                  <p>That Looks Neat is a project by Sam Mason, *|LIST_ADDRESS|*<br>*|LIST:DESCRIPTION|*</p>
+                  <p>That Looks Neat is a project by Sam Mason, *|LIST_ADDRESS|*</p>
+                  <p>*|LIST:DESCRIPTION|*</p>
 
 
                     <center>
-                      <span width="100" class="mc-rewards">*|REWARDS|*</span> 
+                      <span width="100" class="mc-rewards">*|REWARDS|*</span>
                     </center>
                 </td>
               </tr>

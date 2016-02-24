@@ -1,0 +1,33 @@
+issue_no: '03'
+intro: >
+  <h3>Cough Cough Cough...</h3>
+  <p>If the above didn't give it a way I'm writing to you from my sick bed! After a very busy & cold week here in London, I have finally succomb to a cold...bleh!</p>
+  <p>On a brighter note I have been searching the treasures of the internet for some great links to help your coding life more productive and I think these will certainly do that. If you have any links feel free to email me at hi@thatlooksne.at</p>
+
+
+items:
+  -
+    title: FunFunFunction
+    link: https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
+    tagline: Putting the fun in functional programming!
+    description: Functional programming is a different way of thinking about building apps and websites. It's also a little hard to figure out at first, thankfully Mattias has made some incredible videos to step you through all the various parts of it!
+  -
+    title: CloudMagic Email Apps
+    link: https://cloudmagic.com/
+    tagline: Finally an email client that is good!
+    description: If you're anything like me you continuously keep your ears to the floor for an email client, CloudMagic seems to be able to fill that void! It has both OSX & iOS apps, has really nice UI and also integrates really nicely with gmail.
+  -
+    title: AriaFallah/WebpackTutorial
+    link: https://github.com/AriaFallah/WebpackTutorial
+    tagline: Get started with Webpack in this awesome to follow set of tutorials!
+    description: Webpack is great and has some incredible features built in but it has quite a reputation for bad documentation and alot of the tutorials out there are aimed at complex setups, this set of tutorials take you through a webpack setup in easy to manageable parts.
+  -
+    title: Become a better Node.js Developer in 2016
+    link: https://blog.risingstack.com/how-to-become-a-better-node-js-developer-in-2016/
+    tagline: If your dipping your toe into the node.js pool you should read this first
+    description: Node.js is a vast landscape and is changing at a pretty rapid pace, this article is a really good overview of the patterns and best practises up and coming in 2016.
+
+track:
+  title: The Wind - Doe Paoro (feat. Adam Rhodes)
+  link: https://soundcloud.com/antirecords/doe-paoro-the-wind
+  description: The Wind was produced by Justin Vernon of Bon Iver fame, which should give you a hint of the vibe of this track. A very ambient piece of music that builds with some breaksy drums later on in the track but is unified by the vocals, soaring strings and piano.
