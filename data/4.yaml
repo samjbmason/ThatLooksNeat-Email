@@ -1,8 +1,8 @@
 issue_no: '04'
 intro: >
   <h3>Welcome all!<h3>
-  <p>Hello you lovely people and welcome to issue 04! First off a huge thankyou to all the people that have subscribed we have over 100 of you signed up now, it's always nice to see the stats popping up after I release a new issue and see what links you liked most, if you have suggestions of cool things you want to share just shoot me a message at hi@thatlooksne.at</p>
-  <p>I really hope you enjoy this weeks collection of links, I have a couple of javascript resources that I think will help all levels and an awesome and cheap standing desk solution for those of you wanting to try it out.</p>
+  <p>Hello you lovely people and welcome to issue 04! First off a huge thank you to all of you that have subscribed, it's always nice to see the stats popping up after I release a new issue and see what links you liked most, if you have suggestions of cool things you want to share just shoot me a message at hi@thatlooksne.at</p>
+  <p>I really hope you enjoy this weeks collection, I have a couple of javascript resources that I think will help all levels and an awesome cheap standing desk solution for those of you wanting to try it out.</p>
   <p>Have a great rest of the week y'all!</p>
 
 
@@ -13,22 +13,22 @@ items:
     tagline: A very complete glossary of terms you will hear everyday when working with JS!
     description: This is an excellent project that gives you  an amazing overview of all the terms that you will come up against when working in the growing JS ecosystem, definitely one to bookmark.
   -
-    title: to [icon]
+    title: toicon
     link: http://www.toicon.com/
     tagline: Growing collection of nicely designed svg icon sets
     description: I love projects like the noun project but sometimes its nice to get a bit more variety, I saw this pop up on Product Hunt some time ago and its got some really lovely collections and there are even multicolour icons.
   -
     title: Oristand
     link: http://oristand.co/
-    tagline: A portable standing desk solution that doesnt break the bank
-    description: Standing desks are becoming hugely popular to encourage movement and better posture for jobs that are some what more sedentry, the biggest issue with current standing desk solutions is that they are pretty expensive and clunky, Oristand aims to bring that cost right down to $25 to bring standing desks to the masses.
+    tagline: A portable standing desk solution that doesn't break the bank
+    description: Standing desks are becoming hugely popular to encourage movement and better posture for jobs that are some what more sedentary, the biggest issue with current standing desk solutions is that they are pretty expensive and clunky, Oristand aims to bring that cost right down to $25 to bring standing desks to the masses.
   -
     title: JS Tips
     link: http://www.jstips.co/
     tagline: Bitesized javascript tips every day at midday
-    description: A great project that drops a new tip to improve your Javascript skills every day at midday, not much more to say other than definitely subscribe to the twitter account and learn a little bit everyday 😄
+    description: A great project that drops a new tip to improve your Javascript skills every day at midday, not much more to say other than definitely subscribe to the twitter account and learn a little bit everyday.
 
 track:
-  title: It Makes The Babies Want To Cry - Geroge Clanton
+  title: It Makes The Babies Want To Cry - George Clanton
   link: https://soundcloud.com/georgeclanton/george-clanton-it-makes-the-babies-want-to-cry
   description: I love this time of year it's cold outside but you can see the summer on the horizon and with it the pulsing synth pop of this years music that will be powering roof garden playlists. This track is like a mix of mid 00's Friendly Fire-esque kicking drums and the soundscape-ey synth lines of Washed Out. Check out this track if you want a glimpse of Summer!
