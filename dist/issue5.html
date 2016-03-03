@@ -1,0 +1,770 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="date=no">
+
+    <title>That Looks Neat</title>
+
+    <style type="text/css" data-embed="true">
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+</style>
+
+
+    <style data-embed="true">
+/* Reset Styles*/
+
+body {
+  width: 100% !important;
+  min-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  clear: both;
+  display: block;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  border-collapse: collapse !important;
+}
+
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+a img {
+  border: none;
+}
+
+/* Client Specific styles */
+
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+#outlook a {
+  padding: 0;
+}
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+
+/* Styles that Mailchimp will inline for the email*/
+a {
+  font-family: "Lato", Avenir, "Helvetica Neue", Helvetica, sans-serif;
+  color: #1a52c2;
+  text-decoration: none;
+  border-bottom: 2px solid #1a52c2;
+}
+
+p {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+  font-family: "Lato", Avenir, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #1a52c2;
+}
+
+/* Custom Styles */
+
+table.body {
+  height: 100%;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+}
+
+table.body, body {
+  background-color: #FFFFFF;
+}
+
+table.container {
+  width: 600px;
+  max-width: 600px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  text-align: inherit;
+}
+
+h2, h3, h4 {
+  font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+h3 {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+h4 {
+  color: #1a52c2;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.logo-header-table {
+  min-width: 100%;
+}
+
+td.logo-header {
+  padding: 40px 0 40px 0;
+}
+
+img.logo-header__image {
+  width: 205px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+a.logo-header__link {
+  border-bottom: none;
+}
+
+.email-content-container {
+  border: 2px solid #1a52c2;
+}
+
+.email-header {
+  border-bottom: 2px solid #1a52c2;
+  padding: 10px 20px 10px 20px;
+}
+
+.email-header > table {
+  min-width: 100%;
+}
+
+.email-header__issue-no {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.email-header__issue-date {
+  width: 50%;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.issue-date, .issue-date--ios-fix {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.intro-container {
+  padding: 20px 20px 20px 20px;
+}
+
+.intro-banner-table {
+  min-width: 100%;
+}
+
+.intro-banner {
+  padding: 10px 20px 10px 20px;
+  border-top: 2px solid #1a52c2;
+}
+
+.intro-container h3 {
+  color: #1a52c2;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.issue-item {
+  border-top: 2px solid #1a52c2;
+}
+
+.item-image {
+  border-bottom: 2px solid #1a52c2;
+}
+
+.item-no {
+  vertical-align: middle;
+  text-align: center;
+  width: 50px;
+  padding: 10px 0 10px 0;
+  border-right: 2px solid #1a52c2;
+  border-bottom: 2px solid #1a52c2;
+}
+
+.item-no p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a52c2;
+  margin-bottom: 0 !important;
+}
+
+.item-details {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0;
+  border-bottom: 2px solid #FFEAE2;
+}
+
+.item-description {
+  padding-top: 10px;
+  padding-left: 70px;
+  padding-right: 10px;
+  padding-bottom: 0;
+}
+
+.issue-track {
+  border-top: 2px solid #1a52c2;
+}
+
+.track-icon {
+  width: 50px;
+}
+
+.track-icon img {
+  width: 40px;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.track-details {
+  border-bottom: none;
+  padding-bottom: 10px;
+}
+
+.track-details h3 {
+  line-height: 1.4;
+}
+
+.track-details p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.issue-actions {
+  border-top: 2px solid #1a52c2;
+  padding: 10px 20px 10px 20px;
+}
+
+.issue-actions a {
+  color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
+  font-size: 14px;
+}
+
+.issue-actions > table {
+  min-width: 100%;
+}
+
+.unsubscribe {
+  text-align: right;
+}
+
+.email-footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.email-footer p {
+  text-align: center;
+  font-size: 14px;
+  color: #647287;
+}
+
+.mc-rewards {
+  text-align: center;
+  width: 100px;
+  display: block;
+}
+
+.mc-rewards span {
+  width: 100px;
+  display: block;
+}
+
+/* Media Queries */
+@media screen and (max-width: 603px) {
+  table[class="container"] {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  td[class="email-content-container"] {
+    border-left: none !important;
+    border-right: none !important;
+  }
+}
+
+</style>
+
+    <!--[if mso]>
+      <style>
+        h1, h2, h3, h4, p, a {
+          font-family: Avenir, 'Helvetica Neue', Helvetica, sans-serif !important;
+        }
+
+        a {
+          border-bottom: none;
+          text-decoration: underline;
+        }
+      </style>
+    <![endif]-->
+
+  </head>
+
+
+  <!-- Visible Content -->
+  <body style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; margin: 0; min-width: 100%; padding: 0; width: 100%;">
+    <table class="body" style="-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; background-color: #FFFFFF; border-collapse: collapse; border-spacing: 0; height: 100%; padding: 0; text-align: left; text-rendering: optimizeLegibility; vertical-align: top; width: 100%;">
+      <tr style="padding: 0; text-align: left; vertical-align: top;">
+        <td align="center" valign="top" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+          <center>
+
+            <table class="container" style="border-collapse: collapse; border-spacing: 0; margin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; max-width: 600px; padding: 0; text-align: inherit; vertical-align: top; width: 600px;">
+              <tr style="padding: 0; text-align: left; vertical-align: top;">
+                <td align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+
+                  <!-- Start Logo Header -->
+                  <table width="100%" class="logo-header-table" style="border-collapse: collapse; border-spacing: 0; min-width: 100%; padding: 0; text-align: left; vertical-align: top;">
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td class="logo-header" align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 40px 0 40px 0; text-align: left; vertical-align: top; word-break: break-word;">
+                        <a align="center" href="https://thatlooksne.at" target="_blank" class="logo-header__link" style="border-bottom: none; color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none;">
+                          <center>
+                            <img src="https://gallery.mailchimp.com/b6eaa46f5c2a597c69c116217/images/5abc9503-faa2-449a-9e89-b87748024c5d.gif" alt="That Looks Neat" class="logo-header__image" width="205" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; height: auto; margin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; max-width: 100%; outline: none; text-decoration: none; width: 205px;">
+                          </center>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- End Logo Header -->
+
+                </td>
+              </tr>
+
+
+              <tr style="padding: 0; text-align: left; vertical-align: top;">
+                <td align="center" class="email-content-container" bgcolor="#F5F3F5" style="-moz-hyphens: none; -webkit-hyphens: none; border: 2px solid #1a52c2; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                  <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" class="email-header" bgcolor="#1A52C2" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #1a52c2; border-collapse: collapse; hyphens: none; padding: 10px 20px 10px 20px; text-align: left; vertical-align: top; word-break: break-word;">
+                        <!-- Start Email Header -->
+                        <table width="100%" style="border-collapse: collapse; border-spacing: 0; min-width: 100%; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="left" class="email-header__issue-no" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: middle; width: 50%; word-break: break-word;">
+                              <h2 style="color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; text-transform: uppercase;">Issue: 05</h2>
+                            </td>
+                            <td align="right" class="email-header__issue-date" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: right; vertical-align: middle; width: 50%; word-break: break-word;">
+                              <p class="issue-date" style="color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">
+                                <span class="issue-date--ios-fix" style="color: #FFFFFF; font-size: 18px; font-weight: 700; margin-bottom: 0;">*|DATE:d.m.y|*</span>
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End Email Header -->
+                      </td>
+                    </tr>
+
+
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                        <!-- Start Email Intro -->
+                        <table width="100%" bgcolor="#F5F3F5" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="center" class="intro-container" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 20px 20px 20px 20px; text-align: left; vertical-align: top; word-break: break-word;">
+                              <h3 style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; margin-bottom: 10px; margin-left: 0; margin-right: 0; margin-top: 0;">Good afternoon you!<h3 style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; margin-bottom: 10px; margin-left: 0; margin-right: 0; margin-top: 0;"> <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">Welcome to issue 05 of That Looks Neat, this week I have put together another delightful set of hopefully helpful links for you all to peruse at your leisure. If you have suggestions of cool things you want to share just shoot me a message at hi@thatlooksne.at</p> <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">On another note this week the excellent beer brand BrewDog launched <a href="https://www.brewdog.com/diydog" style="border-bottom: 2px solid #1a52c2; color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none;">DIY Dog</a> a PDF containing the recipes for 215 of there popular beers.</p> <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">Like the nerd I am, I'm attempting to convert these recipes into a searchable queryable Brewdog API. If you fancy contributing your favourite recipe head over to https://github.com/samjbmason/punkapi and open up a pull request.</p> <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">Have a great week everyone!</p>
+
+                            </h3></h3></td>
+                          </tr>
+                        </table>
+                        <!-- End Email Intro -->
+                      </td>
+                    </tr>
+
+
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                        <!-- Start Email Intro -->
+                        <table width="100%" bgcolor="#1a52c2" class="intro-banner-table" style="border-collapse: collapse; border-spacing: 0; min-width: 100%; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="center" class="intro-banner" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; border-top: 2px solid #1a52c2; hyphens: none; padding: 10px 20px 10px 20px; text-align: left; vertical-align: top; word-break: break-word;">
+                              <h3 style="color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">In this weeks issue:</h3>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End Email Intro -->
+                      </td>
+                    </tr>
+
+
+
+                    <!-- Begin Repeatable Section -->
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" class="issue-item" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; border-top: 2px solid #1a52c2; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                        <!-- Start Issue Item -->
+                        <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+
+                              <!-- Start Issue Item Image -->
+                              <!-- End Issue Item Image -->
+
+                              <!-- Start Issue Item Details -->
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" width="50" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                        <td align="center" class="item-no" bgcolor="#AEE5D3" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #1a52c2; border-collapse: collapse; border-right: 2px solid #1a52c2; hyphens: none; padding: 10px 0 10px 0; text-align: center; vertical-align: middle; width: 50px; word-break: break-word;">
+                                          <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">1</p>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+
+                                  <td align="left" class="item-details" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #FFEAE2; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 20px; padding-right: 20px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <h3 class="issue-item-title" style="color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">
+                                      <a href="https://github.com/jackfranklin/beginning-react" style="border-bottom: 2px solid #1a52c2; color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none;">jackfranklin/beginning-react</a>
+                                    </h3>
+                                    <h4 style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-style: italic; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 10px;">Getting started with React without all the tooling</h4>
+                                  </td>
+
+                                </tr>
+                              </table>
+                              <!-- End Issue Item Details -->
+
+                              <!-- Start Issue Item Description -->
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" class="item-description" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 70px; padding-right: 10px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">Jack is an excellent developer and a great writer as well, this project links to a great post of his about how to get up and running with React without all the associated tooling.</p>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!-- End Issue Item Description -->
+
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End Issues Item -->
+                      </td>
+                    </tr>
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" class="issue-item" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; border-top: 2px solid #1a52c2; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                        <!-- Start Issue Item -->
+                        <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+
+                              <!-- Start Issue Item Image -->
+                              <!-- End Issue Item Image -->
+
+                              <!-- Start Issue Item Details -->
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" width="50" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                        <td align="center" class="item-no" bgcolor="#AEE5D3" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #1a52c2; border-collapse: collapse; border-right: 2px solid #1a52c2; hyphens: none; padding: 10px 0 10px 0; text-align: center; vertical-align: middle; width: 50px; word-break: break-word;">
+                                          <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">2</p>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+
+                                  <td align="left" class="item-details" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #FFEAE2; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 20px; padding-right: 20px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <h3 class="issue-item-title" style="color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">
+                                      <a href="http://postcss.parts/" style="border-bottom: 2px solid #1a52c2; color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none;">PostCSS.parts</a>
+                                    </h3>
+                                    <h4 style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-style: italic; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 10px;">A collection of all the best PostCSS plugins</h4>
+                                  </td>
+
+                                </tr>
+                              </table>
+                              <!-- End Issue Item Details -->
+
+                              <!-- Start Issue Item Description -->
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" class="item-description" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 70px; padding-right: 10px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">PostCSS is set to be the successor to SASS and other pre-processor languages, while PostCSS doesn&#x27;t come with much by default it has a huge ecosystem of plugins that do one thing really well, check them all out here rather than scouring Github.</p>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!-- End Issue Item Description -->
+
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End Issues Item -->
+                      </td>
+                    </tr>
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" class="issue-item" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; border-top: 2px solid #1a52c2; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                        <!-- Start Issue Item -->
+                        <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+
+                              <!-- Start Issue Item Image -->
+                              <!-- End Issue Item Image -->
+
+                              <!-- Start Issue Item Details -->
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" width="50" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                        <td align="center" class="item-no" bgcolor="#AEE5D3" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #1a52c2; border-collapse: collapse; border-right: 2px solid #1a52c2; hyphens: none; padding: 10px 0 10px 0; text-align: center; vertical-align: middle; width: 50px; word-break: break-word;">
+                                          <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">3</p>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+
+                                  <td align="left" class="item-details" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #FFEAE2; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 20px; padding-right: 20px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <h3 class="issue-item-title" style="color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">
+                                      <a href="http://www.minaal.com/" style="border-bottom: 2px solid #1a52c2; color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none;">Minaal The Carry-On 2.0</a>
+                                    </h3>
+                                    <h4 style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-style: italic; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 10px;">A carry-on bag for the minimalist dev</h4>
+                                  </td>
+
+                                </tr>
+                              </table>
+                              <!-- End Issue Item Details -->
+
+                              <!-- Start Issue Item Description -->
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" class="item-description" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 70px; padding-right: 10px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">One of the joys of building for the web is that you can do it from anywhere in the world as long as there is a web connection. A lot of people are now exploring the world and to save themselves from carting around huge amounts of luggage lots of people are resorting to smart packing and ingenious carry on luggage instead. The Carry-On 2.0 aims to take version 1.0 and make it even better.</p>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!-- End Issue Item Description -->
+
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End Issues Item -->
+                      </td>
+                    </tr>
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" class="issue-item" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; border-top: 2px solid #1a52c2; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                        <!-- Start Issue Item -->
+                        <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+
+                              <!-- Start Issue Item Image -->
+                              <!-- End Issue Item Image -->
+
+                              <!-- Start Issue Item Details -->
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" width="50" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                        <td align="center" class="item-no" bgcolor="#AEE5D3" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #1a52c2; border-collapse: collapse; border-right: 2px solid #1a52c2; hyphens: none; padding: 10px 0 10px 0; text-align: center; vertical-align: middle; width: 50px; word-break: break-word;">
+                                          <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">4</p>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+
+                                  <td align="left" class="item-details" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #FFEAE2; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 20px; padding-right: 20px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <h3 class="issue-item-title" style="color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">
+                                      <a href="http://designingforperformance.com/basics-of-page-speed/" style="border-bottom: 2px solid #1a52c2; color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none;">The Basics of Page Speed</a>
+                                    </h3>
+                                    <h4 style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-style: italic; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 10px;">Deep dive into understanding how your page loads and common bottlenecks</h4>
+                                  </td>
+
+                                </tr>
+                              </table>
+                              <!-- End Issue Item Details -->
+
+                              <!-- Start Issue Item Description -->
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" class="item-description" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 70px; padding-right: 10px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">A bit of a long read but well worth it, this article is part of Lara&#x27;s book Designing for Performance and gives you an insight into exactly what happens when your site starts loading in your browser as well as ways of attempting to speed it up.</p>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!-- End Issue Item Description -->
+
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End Issues Item -->
+                      </td>
+                    </tr>
+                    <!-- End Repeatable Section -->
+
+
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" class="issue-track" bgcolor="#FFEAE2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; border-top: 2px solid #1a52c2; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                        <!-- Start Issue Track -->
+                        <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="center" bgcolor="#aee5d3" width="50" class="item-no track-icon" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: 2px solid #1a52c2; border-collapse: collapse; border-right: 2px solid #1a52c2; hyphens: none; padding: 10px 0 10px 0; text-align: center; vertical-align: middle; width: 50px; word-break: break-word;">
+                              <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <td align="center" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                                    <center>
+                                      <img src="https://gallery.mailchimp.com/b6eaa46f5c2a597c69c116217/images/f81c926a-c952-44bd-ade3-b4e5e5e07814.jpg" alt="This Weeks Track" width="40" style="-ms-interpolation-mode: bicubic; clear: both; display: block; height: auto; margin-left: auto; margin-right: auto; max-width: none; outline: none; text-decoration: none; width: 40px;">
+                                    </center>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+
+                            <td align="left" class="item-details track-details" style="-moz-hyphens: none; -webkit-hyphens: none; border-bottom: none; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                              <h3 class="issue-track-title" style="color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; line-height: 1.4; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">
+                                <a href="https://soundcloud.com/housearrestrecs/day-wave-come-home-now-2" style="border-bottom: 2px solid #1a52c2; color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none;">Come Home Now - Day Wave</a>
+                              </h3>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table width="100%" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="center" class="item-description" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 0; padding-left: 70px; padding-right: 10px; padding-top: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                              <p style="color: #1a52c2; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0;">Following on from last weeks summery track, this one should get you in the mood for parties with friends and BBQ&#x27;s in the park, a jangly California dreamy pop song by Jackson Phillips.</p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End Issue Track -->
+                      </td>
+                    </tr>
+
+
+                    <!-- Start Email Actions -->
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                      <td align="center" class="issue-actions" bgcolor="#1A52C2" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; border-top: 2px solid #1a52c2; hyphens: none; padding: 10px 20px 10px 20px; text-align: left; vertical-align: top; word-break: break-word;">
+                        <table width="100%" style="border-collapse: collapse; border-spacing: 0; min-width: 100%; padding: 0; text-align: left; vertical-align: top;">
+                          <tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <td align="left" width="50%" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
+                              <a href="*|ARCHIVE|*" style="border-bottom: 2px solid #1a52c2; border-bottom-color: #FFFFFF; color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; text-decoration: none;">View the web version</a>
+                            </td>
+
+                            <td align="right" width="50%" class="unsubscribe" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; text-align: right; vertical-align: top; word-break: break-word;">
+                              <a href="*|UNSUB|*" style="border-bottom: 2px solid #1a52c2; border-bottom-color: #FFFFFF; color: #FFFFFF; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; text-decoration: none;">Unsubscribe</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- End Email Actions -->
+
+
+
+
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Start Email Footer -->
+              <tr style="padding: 0; text-align: left; vertical-align: top;">
+                <td align="center" class="email-footer" style="-moz-hyphens: none; -webkit-hyphens: none; border-collapse: collapse; hyphens: none; padding: 0; padding-bottom: 20px; padding-top: 40px; text-align: left; vertical-align: top; word-break: break-word;">
+                  <p style="color: #647287; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0; text-align: center;">That Looks Neat is a project by Sam Mason, *|LIST_ADDRESS|*</p>
+                  <p style="color: #647287; font-family: 'Lato', Avenir, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; line-height: 1.4; margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-top: 0; text-align: center;">*|LIST:DESCRIPTION|*</p>
+
+
+                    <center>
+                      <span width="100" class="mc-rewards" style="display: block; text-align: center; width: 100px;">*|REWARDS|*</span>
+                    </center>
+                </td>
+              </tr>
+              <!-- End Email Footer -->
+
+
+            </table>
+
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

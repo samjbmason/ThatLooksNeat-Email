@@ -2,7 +2,8 @@ issue_no: '05'
 intro: >
   <h3>Good afternoon you!<h3>
   <p>Welcome to issue 05 of That Looks Neat, this week I have put together another delightful set of hopefully helpful links for you all to peruse at your leisure. If you have suggestions of cool things you want to share just shoot me a message at hi@thatlooksne.at</p>
-  <p>On another note this week the excellent beer brand BrewDog launched <a href="https://www.brewdog.com/diydog">DIY Dog</a> a PDF containing the recipes for 215 of there popular beers and like the nerd I am I'm attempting to convert these recipes into a searchable queryable Brewdog API. If you fancy contributing your favourite recipe head over to https://github.com/samjbmason/punkapi and open up a pull request.</p>
+  <p>On another note this week the excellent beer brand BrewDog launched <a href="https://www.brewdog.com/diydog">DIY Dog</a> a PDF containing the recipes for 215 of there popular beers.</p>
+  <p>Like the nerd I am, I'm attempting to convert these recipes into a searchable queryable Brewdog API. If you fancy contributing your favourite recipe head over to https://github.com/samjbmason/punkapi and open up a pull request.</p>
   <p>Have a great week everyone!</p>
 
 
