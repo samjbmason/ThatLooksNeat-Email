@@ -1,0 +1,34 @@
+issue_no: '06'
+intro: >
+  <h3>Happy Thursday!<h3>
+  <p>I hope you're having a great week, I have lots of great links in store for you this week. If you have suggestions of cool things you want to share just shoot me a message at hi@thatlooksne.at</p>
+  <p>My side project PunkAPI is coming along nicely for those of you following along, I have been using every spare moment to transcribe recipes as well as building out the actual API to host the data, it should be out in the next fortnight!</p>
+  <p>Have a great week everyone!</p>
+
+
+items:
+  -
+    title: Marcus Blättermann Responsive Art
+    link: http://essenmitsosse.de/pixel/
+    tagline: Art goes responsive
+    description: This site is a great example of amazing use of javascript and smart art! Creating pieces of artwork that change depending on the size of the screen you view them on.
+  -
+    title: vdemedes/gifi
+    link: https://github.com/vdemedes/gifi
+    tagline: Watch GIFs while running npm install
+    description: Everyone and their dog uses npm now to install project dependencies and many people have experienced the frustration that ascii spinner, why not instead watch a hilarious gif with this package.
+  -
+    title: How to Deploy Software
+    link: https://zachholman.com/posts/deploying-software
+    tagline: Words of Wisdom from Zach Holman
+    description: Deploying software has become an art form in itself and can scale from the one person team shipping a side project to an entire company shipping new features to millions of users, this post goes over all the various things to consider when building a product and team that ships!
+  -
+    title: Emoji Faces by jlord (◍•ᴗ•◍)♡
+    link: https://gist.github.com/jlord/eae759b86cc398e9a905
+    tagline: Why limit yourself to emoji
+    description: This is a cute collection of ascii faces and also a way to map them to keyboard shortcuts, it's fun will take a few minutes and will immediately make people like you more ヽ(´∇｀)ﾉ
+
+track:
+  title: Morning Side - Four Tet
+  link: https://soundcloud.com/four-tet/morning-side
+  description: It's Four Tet! Need I say more. The first song off his latest two track EP. Clocking in at an impressive 20 minutes, it's definitely one to get you into your zone.
