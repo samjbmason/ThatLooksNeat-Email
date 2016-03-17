@@ -1,0 +1,34 @@
+issue_no: '07'
+intro: >
+  <h3>Happy Sunny Thursday!<h3>
+  <p>It's that time of the week where you get a lovely shot of web development links. If you have suggestions of cool things you want to share just shoot me a message at hi@thatlooksne.at</p>
+  <p>If anyone has been following along with my other side project PunkAPI, then you will know we have finished collecting all the recipes for all the beers and there will soon be an announcement launching the API itself.</p>
+
+
+items:
+  -
+    title: Git Hot Tips
+    link: http://wesbos.com/git-hot-tips/
+    tagline: Some hot tips for those git-ters amongst you
+    description: Wes Bos has a great blog and this post collects some awesome tips on using git and how they can actually benefit your workflow in plain english.
+  -
+    title: Concrete Jungles
+    link: http://www.concretejungles.co.uk/#cactus
+    tagline: Every budding designer needs a cool cactus for their desk
+    description: Shortly after moving into our new office I notice one of our designers desks had some succulents in these beautiful brutalist concrete pots, after asking him where he got them from he pointed me in the direction Concrete Jungles, check them out for some hip pots for your succas.
+  -
+    title: React for Beginners
+    link: https://reactforbeginners.com/
+    tagline: The best course I have used for learning React
+    description: There are sooo many ways and places to learn React, I bought this one a while ago and it's a great course and I constantly use it as a reference when looking at how to achieve something. Use the code WESBOS for 10% off.
+  -
+    title: Web Audio Arpeggiator
+    link: http://arpeggiator.desandro.com/
+    tagline: Make music in your browser
+    description: Dave DeSandro of Isotope fame, has made this awesome arpeggiator powered by javascript and some web audio API's have a play around and explore the code base.
+
+
+track:
+  title: Sorry - Liss
+  link: https://soundcloud.com/liss/sorry
+  description: Like a Danish Boyz II Men, Liss have just released their new single after being signed to XL, this song is a definitely a grower but after only a couple of listens Im pretty hooked and have high hopes for any future album of theirs.
